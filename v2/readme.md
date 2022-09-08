@@ -1,3 +1,9 @@
+---
+pdf_options:
+    format: a4
+    margin: 10mm 20mm
+---
+
 # gradescope verkefni - gagnasafnsfræði
 
 ## 1.
@@ -22,9 +28,9 @@ mynd 1:
 mynd 2:  
 | | | | |
 |---|:---:|:---:|:---:|
-| Jón Sigurðsson | 901-222 | 12345 |
-| Sigríður Jónsdóttir | 805-333 | 34567 |
-| Línus Gauti | 805-333 | 23456 |
+| Jón | Sigurðsson | 901-222 | 12345 |
+| Sigríður | Jónsdóttir | 805-333 | 34567 |
+| Línus | Gauti | 805-333 | 23456 |
 
 ### f)
 mynd 1:  
@@ -36,6 +42,8 @@ mynd 2:
 |firstName|lastName|idNo|account|
 |---|---|---|---|
 |varchar(20)|varchar(20)|char(7)|int|
+
+<div style='page-break-after: always;'></div>
 
 ## 2
 ### a)
