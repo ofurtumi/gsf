@@ -70,7 +70,7 @@ create table Printer(
 ### a)
 ```sql
 select starName from StarsIn 
-where movieTitle like 'Star Wars' 
+where movieTitle like 'Titanic' 
 INTERSECT 
 select name from MovieStar 
 where gender like 'F';
@@ -94,6 +94,11 @@ select name from MovieExec where cert = (
 <div style='page-break-after: always;'></div>
 
 ### d)
+```sql
+select title from Movie where length > (select length from Movie where title = 'Star Wars');
+```
+
+### e)
 ```sql
 select name from MovieExec where 
     netWorth > (select netWorth from MovieExec where 
