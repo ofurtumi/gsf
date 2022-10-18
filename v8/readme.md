@@ -3,6 +3,7 @@
 > öll þessara falla notast við samskonar "boilerplate" kóða sem ég set neðst í þessi skil
 
 ## 1.
+[forritið](./forritun/v8a.java)
 
 ```java
 double salaries = 0;
@@ -20,6 +21,7 @@ System.out.printf("avg-salary: %f", salaries/cnt);
 ```
 
 ## 2.
+[forritið](./forritun/v8b.java)
 
 ```java
 // query strengur skilgreindur
@@ -42,6 +44,7 @@ rs.close();
 ```
 
 ## 3.
+[forritið](./forritun/v8c.java)
 
 ```java
 // fyrir allt starfsfólk í EMPLOYEE setja Salary sem Salary*1.03
