@@ -64,7 +64,7 @@ CREATE TABLE Flights (
 );
 
 CREATE TABLE Bookings (
-    row CHAR(1),
+    row CHAR(2),
     seat CHAR(1),
     SSNo CHAR(10),
     flightNumber VARCHAR(20),
