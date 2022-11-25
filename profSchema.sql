@@ -50,10 +50,10 @@ insert into MovieStar values
 	
 insert into Studio values
 	('Metro golden Mayer' ,'Calefornia' ,'SIG'),
-	('Disney Studios' ,'Rio' ,'STI'),
+	('Disney Studios' ,'Dufnaholar 10' ,'STI'),
 	('Dreamworks' ,'Raufarhofn'),
 	('Paramount' ,'Kopasker');
-	
+
 insert into MovieExec values
 	('Siggi', 'Bolholt 10', 'SIG', 150),
 	('Palli', 'Bolholt 11', 'PAL', 930),
@@ -75,4 +75,24 @@ insert into Movie values
 	('Mad Max',				2001, 1, 520, 'Metro golden Mayer', 	'SIG'),
 	('Hacker',				2017, 1, 150, 'Metro golden Mayer', 	'SIG');
 
-
+insert into StarsIn values
+	('Avatar' ,2007 ,'Hakon'),
+	('Avatar' ,2007 ,'Isabella'),
+	('Avatar' ,2007 ,'Maria'),
+	('Avatar' ,2007 ,'Gunnar'),
+	('Avatar' ,2007 ,'Tumi'),
+	('Avatar' ,2007 ,'Patrik'),
+	('Avatar' ,2007 ,'Veturlidi'),
+	('Green Mile' ,2017 ,'Hakon'),
+	('Green Mile' ,2017 ,'Patrik'),
+	('Harry Potter 3' ,2012 ,'Gunnar'),
+	('Harry Potter 3' ,2012 ,'Hakon')
+	('Tron' ,2013 ,'Tumi'),
+	('Tron' ,2013 ,'Isabella'),
+	('Titanic' ,2015 ,'Maria'),
+	('Star Wars' ,1997 ,'Isabella'),
+	('Star Trek' ,1834 ,'Veturlidi'),
+	('Guns Akimbo' ,2001 ,'Gunnar'),
+	('Road Work Ahed' ,2010 ,'Patrik'),
+	('Mad Max' ,2001 ,'Isabella'),
+	('Hacker' ,2017 ,'Maria');
